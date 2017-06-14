@@ -45,6 +45,6 @@ ipCCrate = "600/60", -- ip访问服务器频率（次/秒）<br>
 wafconf中的拦截规则沿用源码中的配置，和业界当前的拦截匹配规则基本一致<br>
 
 ## 检测方式：
-访问http://ip:port/xxxx.php?id=../etc/passwd后显示403 forbidden即配置生效<br>
+访问http://ip:port/xxxx.php?id=../etc/passwd 后显示403 forbidden即配置生效<br>
 
 最后再次感谢@loveshell大神的waf代码，这一版的代码思路基本全部源自于其git的waf代码，只是在其思路基础上做了lua代码的规范完善+bug修复+部分规则的加强。
